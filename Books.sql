@@ -1,0 +1,35 @@
+CREATE DATABASE Booklist;
+CREATE TABLE Books (
+id int primary key, name text, rating float
+);
+INSERT INTO Books values
+(01, "The Mountain is You", 4.9),
+(02, "The Rebel King", 5.0),
+(03, "The King Maker", 5.0),
+(04, "Before I let go", 4.0),
+(05, "Harry Potter", 5.0),
+(06, "Women of the Bible", 5.0),
+(07, "Julia's Dance", 3.8),
+(08, "My soul to keep", 4.0),
+(09, "Refrain", 3.5),
+(10, "Down to my soul", 3.0),
+(11, "Flow", 1.0),
+(12, "Me before you", 3.9),
+(13, "The red heifer", 3.1),
+(14, "Pride and Prejudice", 4.5),
+(15, "Before her eyes", 5.0),
+(16, "The Hunger Games",3.0),
+(17, "The Alchemist", 2.0),
+(18, "The Chronicles of Narnia", 3.7),
+(19, "Crime and Punishment", 2.5),
+(20, "Cinderella", 4.6),
+(21, "The Princess and the frog", 3.7),
+(22, "Rapunzel", 4.0),
+(23, "Sleeping Beauty", 3.0),
+(24, "Pinnochio", 1.2),
+(25, "The Night Circus", 2.0),
+(26, "The Green Sunlight", 1.5),
+(27, "Goldilocks and the bear",2.8),
+(28, "Hansel and Gretel", 3.9),
+(29, "Peter Pan", 1.1),
+(30, "Little red riding hood",4.1);
